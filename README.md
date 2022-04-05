@@ -1,35 +1,11 @@
-# Eleventy plugin template
+# Eleventy site template
 
-This is my template for creating Eleventy plugins.
+This is my template for creating Eleventy sites.
+
+Demo site hosted on Netlify: [update-this-url.netlify.app](https://update-this-url.netlify.app)
 
 ## What this does
 
-## Installation
+## Interesting things to check out
 
-### Install package
-
-`npm install PLUGIN_NAME`
-`npm install github:larryhudson/PLUGIN_NAME`
-
-### Add to `.eleventy.js`
-
-```js
-const { MyPlugin } = require("PLUGIN_NAME");
-
-module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(MyPlugin);
-};
-```
-
-## Configuration options
-
-```js
-eleventyConfig.addPlugin(MyPlugin {
-    option1: 'blah', // explanation
-    option2: true // explanation
-})
-```
-
-## To do list
-
-1. Create a plugin!
+## More info
