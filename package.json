@@ -1,14 +1,15 @@
 {
-  "name": "scaffold-eleventy-plugin",
+  "name": "scaffold-eleventy-site",
   "version": "1.0.0",
-  "description": "Template for Eleventy plugin development",
+  "description": "Template for Eleventy site development",
   "main": "index.js",
   "scripts": {
-    "test": "npx @11ty/eleventy"
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --watch --serve",
+    "dev": "npm start"
   },
   "keywords": [
-    "eleventy",
-    "eleventy-plugin"
+    "eleventy"
   ],
   "license": "MIT",
   "publishConfig": {
@@ -29,7 +30,6 @@
     "url": "git+https://github.com/larryhudson/<REPLACE THIS!>.git"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "lodash.merge": "^4.6.2"
+    "@11ty/eleventy": "^1.0.0"
   }
 }
